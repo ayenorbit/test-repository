@@ -1,16 +1,20 @@
+[
 {
-  "themes": [{
-    "id": 1,
-    "color_primary": "#1A1919",
-    "color_secondary": "#00B2C5",
-    "color_tertiary": "#DB3255"
-  }],
-  "onboarding": [{
-    "id": 1,
-    "icon_name": "ic_onboarding_earn",
-    "name": "Earn",
-    "description": "Just scan the code at participating retailers after buying."
-  },
+  "themes": [
+    {
+      "id": 1,
+      "color_primary": "#1A1919",
+      "color_secondary": "#00B2C5",
+      "color_tertiary": "#DB3255"
+    }
+  ],
+  "onboarding": [
+    {
+      "id": 1,
+      "icon_name": "ic_onboarding_earn",
+      "name": "Earn",
+      "description": "Just scan the code at participating retailers after buying."
+    },
     {
       "id": 2,
       "icon_name": "ic_onboarding_deals",
@@ -30,15 +34,15 @@
       "description": "Enable Push Notifications and Location services to get useful updates and all the great rewards!"
     }
   ],
-  "main_tabs": [{
-    "id": 1,
-    "tab_icon": "ic_deals",
-    "tab_name": "Rewards",
-    "tab_id": 1,
-    "tab_index": 0,
-    "tab_notification": true
-
-  },
+  "main_tabs": [
+    {
+      "id": 1,
+      "tab_icon": "ic_deals",
+      "tab_name": "Rewards",
+      "tab_id": 1,
+      "tab_index": 0,
+      "tab_notification": true
+    },
     {
       "id": 2,
       "tab_icon": "ic_competition",
@@ -46,7 +50,6 @@
       "tab_id": 9,
       "tab_index": 1,
       "tab_notification": true
-
     },
     {
       "id": 3,
@@ -55,7 +58,6 @@
       "tab_id": 2,
       "tab_index": 2,
       "tab_notification": false
-
     },
     {
       "id": 4,
@@ -73,6 +75,6 @@
       "tab_index": 4,
       "tab_notification": false
     }
-
   ]
 }
+]
