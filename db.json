@@ -1,4 +1,3 @@
-[
   [
     {
       "themes": [
@@ -8,35 +7,31 @@
           "color_tertiary": "#DB3255"
         }
       ]
-    }
-  ],
-  [
+    },
     {
-    "onboarding": [
-      {
-        "icon_name": "ic_onboarding_earn",
-        "name": "Earn",
-        "description": "Just scan the code at participating retailers after buying."
-      },
-      {
-        "icon_name": "ic_onboarding_deals",
-        "name": "Rewards",
-        "description": "Browse, redeem and win great rewards using your loyalty points."
-      },
-      {
-        "icon_name": "ic_onboarding_competition",
-        "name": "Win",
-        "description": "Enter member-only competitions to win fantastic rewards."
-      },
-      {
-        "icon_name": "ic_buy_and_scan",
-        "name": "Enable Push Notifications",
-        "description": "Enable Push Notifications and Location services to get useful updates and all the great rewards!"
-      }
-    ]
-  }
-  ],
-  [
+      "onboarding": [
+        {
+          "icon_name": "ic_onboarding_earn",
+          "name": "Earn",
+          "description": "Just scan the code at participating retailers after buying."
+        },
+        {
+          "icon_name": "ic_onboarding_deals",
+          "name": "Rewards",
+          "description": "Browse, redeem and win great rewards using your loyalty points."
+        },
+        {
+          "icon_name": "ic_onboarding_competition",
+          "name": "Win",
+          "description": "Enter member-only competitions to win fantastic rewards."
+        },
+        {
+          "icon_name": "ic_buy_and_scan",
+          "name": "Enable Push Notifications",
+          "description": "Enable Push Notifications and Location services to get useful updates and all the great rewards!"
+        }
+      ]
+    },
     {
       "main_tabs": [
         {
@@ -80,5 +75,5 @@
 
       ]
     }
-  ]
+  
 ]
