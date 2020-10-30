@@ -1,74 +1,94 @@
 [
-	[{
-		"themes": [{
-			"color_primary": "#1A1919",
-			"color_secondary": "#00B2C5",
-			"color_tertiary": "#DB3255"
-		}]
-	}],
-	[{
-		"onboarding": [{
-				"icon_name": "ic_onboarding_earn",
-				"name": "Earn",
-				"description": "Just scan the code at participating retailers after buying."
-			},
-			{
-				"icon_name": "ic_onboarding_deals",
-				"name": "Rewards",
-				"description": "Browse, redeem and win great rewards using your loyalty points."
-			},
-			{
-				"icon_name": "ic_onboarding_competition",
-				"name": "Win",
-				"description": "Enter member-only competitions to win fantastic rewards."
-			},
-			{
-				"icon_name": "ic_buy_and_scan",
-				"name": "Enable Push Notifications",
-				"description": "Enable Push Notifications and Location services to get useful updates and all the great rewards!"
-			}
-		]
-	}],
-	[{
-		"main_tabs": [{
-				"tab_icon": "ic_deals",
-				"tab_name": "Rewards",
-				"tab_id": 1,
-				"tab_index": 0,
-				"tab_notification": true
+  [
+    {
+      "themes": [
+        {
+          "id": 1,
+          "color_primary": "#1A1919",
+          "color_secondary": "#00B2C5",
+          "color_tertiary": "#DB3255"
+        }
+      ]
+    }
+  ],
+  [
+    {
+    "onboarding": [
+      {
+        "id": 1,
+        "icon_name": "ic_onboarding_earn",
+        "name": "Earn",
+        "description": "Just scan the code at participating retailers after buying."
+      },
+      {
+        "id": 2,
+        "icon_name": "ic_onboarding_deals",
+        "name": "Rewards",
+        "description": "Browse, redeem and win great rewards using your loyalty points."
+      },
+      {
+        "id": 3,
+        "icon_name": "ic_onboarding_competition",
+        "name": "Win",
+        "description": "Enter member-only competitions to win fantastic rewards."
+      },
+      {
+        "id": 4,
+        "icon_name": "ic_buy_and_scan",
+        "name": "Enable Push Notifications",
+        "description": "Enable Push Notifications and Location services to get useful updates and all the great rewards!"
+      }
+    ]
+  }
+  ],
+  [
+    {
+      "main_tabs": [
+        {
+          "id": 1,
+          "tab_icon": "ic_deals",
+          "tab_name": "Rewards",
+          "tab_id": 1,
+          "tab_index": 0,
+          "tab_notification": true
 
-			},
-			{
-				"tab_icon": "ic_competition",
-				"tab_name": "Win",
-				"tab_id": 9,
-				"tab_index": 1,
-				"tab_notification": true
+        },
+        {
+          "id": 2,
+          "tab_icon": "ic_competition",
+          "tab_name": "Win",
+          "tab_id": 9,
+          "tab_index": 1,
+          "tab_notification": true
 
-			},
-			{
-				"tab_icon": "null",
-				"tab_name": "scan",
-				"tab_id": 2,
-				"tab_index": 2,
-				"tab_notification": false
+        },
+        {
+          "id": 3,
+          "tab_icon": "null",
+          "tab_name": "scan",
+          "tab_id": 2,
+          "tab_index": 2,
+          "tab_notification": false
 
-			},
-			{
-				"tab_icon": "ic_message",
-				"tab_name": "Messages",
-				"tab_id": 5,
-				"tab_index": 3,
-				"tab_notification": true
-			},
-			{
-				"tab_icon": "ic_more",
-				"tab_name": "More",
-				"tab_id": 7,
-				"tab_index": 4,
-				"tab_notification": false
-			}
+        },
+        {
+          "id": 4,
+          "tab_icon": "ic_message",
+          "tab_name": "Messages",
+          "tab_id": 5,
+          "tab_index": 3,
+          "tab_notification": true
+        },
+        {
+          "id": 5,
+          "tab_icon": "ic_more",
+          "tab_name": "More",
+          "tab_id": 7,
+          "tab_index": 4,
+          "tab_notification": false
+        }
 
-		]
-	}]
+      ]
+    }
+  ]
 ]
